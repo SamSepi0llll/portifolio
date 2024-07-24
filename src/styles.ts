@@ -6,6 +6,13 @@ const EstiloGlobal = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    list-style: none;
+}
+
+@media (min-width: 1024px){
+  main{
+  padding-bottom: 40px;
+}
 }
 
 body{
