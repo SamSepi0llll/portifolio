@@ -2,11 +2,11 @@ import { P } from './styles'
 
 export type Props = {
   children: string
-  tipo?: string
+  typeP?: 'mainP' | 'secP'
 }
 
-const Paragraph = ({ children, tipo = 'principal' }: Props) => (
-  <P tipo={tipo}>{children}</P>
+const Paragraph = ({ children, typeP = 'mainP' }: Props) => (
+  <P typeP={typeP}>{children}</P>
 )
 
 export default Paragraph

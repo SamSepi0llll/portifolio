@@ -1,11 +1,11 @@
 import Title from '../../components/Title'
-import { P as Paragraph } from '../../components/Paragraph/styles'
+import Paragraph from '../../components/Paragraph'
 
 const About = () => {
   return (
     <section>
       <Title fontSize={16}>Sobre mim</Title>
-      <Paragraph tipo="principal">
+      <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magni
         eum nisi enim sequi repellat repudiandae facere, aspernatur consequuntur
         eos hic aperiam facilis aut maiores in! Eveniet pariatur fuga ad.
