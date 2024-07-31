@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <Card>
       <Title>Projeto lista de tarefas</Title>
-      <Paragraph typeP="secP">Lista de tarefas feita com VueJS</Paragraph>
+      <Paragraph type="sec">Lista de tarefas feita com VueJS</Paragraph>
       <LinkButton>Visualizar</LinkButton>
     </Card>
   )
